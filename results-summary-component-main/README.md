@@ -8,18 +8,15 @@ Esta é uma solução para o [desafio do componente de resumo de resultados no F
 
 Users should be able to:
 
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
+- Ver o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
+- Veja os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
 
 ![](./screenshot.jpg)
-
-<!--aqui vai a imagem do projeto dentro de uma div -->
+<!--aqui vaiduas imagens, a do PC e a do mobile do projeto dentro de uma div centralizado-->
 ### Links
-
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
