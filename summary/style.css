@@ -34,6 +34,7 @@ main {
 
 .card {
     display: flex;
+    position: absolute;
     columns: 1;
     align-items: center;
     flex-direction: column;
@@ -43,6 +44,8 @@ main {
     border-radius: 20px;
     color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+    margin-left: -285px;
+    z-index: 1;
 }
 
 .card > h2 {
@@ -83,10 +86,15 @@ main {
     color: var(--cinza-claro);
     font-size: 0.8em;
 }
+/*FIM CARD ROXO*/
 
 
+img {
+    margin-right: 3px;
+}
 
 .summary {
+    position: absolute;
     display: flex;
     columns: 1;
     align-items: center;
@@ -97,6 +105,9 @@ main {
     border-radius: 0px 20px 20px 0px;
     color: var(--cinza-escuro);
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.178);
+    padding-left: 30px;
+    margin-left: 285px;
+    z-index: 0;
 }
 
 .summary > h1 { 
@@ -113,6 +124,7 @@ main {
     border-radius: 8px;
     align-items: center;
     text-align: right;
+    margin-bottom: 20px;
 }
 
 .stats-color-red {
@@ -131,6 +143,7 @@ main {
     border-radius: 8px;
     align-items: center;
     text-align: right;
+    margin-bottom: 20px;
 }
 
 .stats-color-yellow {
@@ -138,9 +151,85 @@ main {
     display: flex;
     justify-self: flex-start;
     margin-left: 8px;
-    margin-right: 25%
+    margin-right: 25.5%
 }
 
-img {
-    margin-right: 3px;
+.stats-green {
+    display: flex;
+    background-color: rgba(0, 189, 145, 0.11);
+    width: 85%;
+    height: 40px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 20px;
 }
+
+.stats-color-green {
+    color: var(--verde);
+    display: flex;
+    justify-self: flex-start;
+    margin-left: 8px;
+    margin-right: 33%
+}
+
+.stats-blue {
+    display: flex;
+    background-color: rgba(17, 36, 212, 0.11);
+    width: 85%;
+    height: 40px;
+    border-radius: 8px;
+    align-items: center;
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.stats-color-blue {
+    color: var(--azul);
+    display: flex;
+    justify-self: flex-start;
+    margin-left: 8px;
+    margin-right: 34%
+}
+
+.fraction {
+    font-size: 0.9em;
+    padding: 1px;
+}
+
+button {
+    background-color: var(--cinza-escuro);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: 0;
+    width: 85%;
+}
+
+button:hover {
+    background-image: linear-gradient(to bottom, var(--roxo-claro), var(--roxo-escuro));
+    transition: 0.3s;
+}
+
+
+/*Fim do card branco*/
+
+footer {
+    text-align: center;
+    background-color: white;
+    box-shadow: -1px -1px 10px rgba(0, 0, 0, 0.349);
+    font-size: 0.9em;
+}
+
+footer > a {
+    font-size: 0.9em;
+    color: var(--roxo-escuro);
+    text-decoration: none;
+}
+
+footer > a:hover {
+    text-decoration: underline;
+}
+/*Fim responsavidade PC*/
+
+@media (max)
