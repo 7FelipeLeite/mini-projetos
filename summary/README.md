@@ -13,9 +13,9 @@ O que os usuarios poderão fazer:
 
 ### Screenshot
 <div align="center">
-  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-pc.png">
-  <img src="screenshot/layout-pc-hover.png">
-  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-cell.png">
+  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-pc.png" width="500px">
+  <img src="screenshot/layout-pc-hover.png" width="500px">
+  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-cell.png" width="300px">
 </div>
 
 ### Links
