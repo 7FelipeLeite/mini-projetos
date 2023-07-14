@@ -15,7 +15,7 @@ O que os usuarios poderão fazer:
 <div align="center">
   <img href="screenshot/layout-pc.png">
   <img href="screenshot/layout-pc-hover.png">
-  <img href="screenshot/layout-cell.png">
+  <img href="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-cell.png">
 </div>
 
 ### Links
