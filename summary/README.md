@@ -16,7 +16,7 @@ O que os usuarios poderão fazer:
 ![](./screenshot.jpg)
 <!--aqui vaiduas imagens, a do PC e a do mobile do projeto dentro de uma div centralizado-->
 ### Links
-- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/results-summary-component-main/)
+- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
 
 ## My process
 
