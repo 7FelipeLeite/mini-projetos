@@ -261,6 +261,18 @@ footer > a:hover {
         margin: auto;
     }
 
+    .card > h1 {
+    margin: 40px;
+    font-size: 1.8em;
+    }  
+
+   .card > p {
+    color: var(--cinza-claro);
+    padding: 0 50px 0 50px;
+    text-align: center;
+    font-size: 1em;
+   }
+   
     .summary {
         position: relative;
         display: flex;
@@ -323,14 +335,13 @@ footer > a:hover {
     }
 
 
-
     button {
         background-color: var(--cinza-escuro);
         color: white;
         padding: 16px;
         border-radius: 30px;
         border: 0;
-        width: 85%;
+        width: 100%;
         margin: 10px 0px 30px 0;
     }
 
