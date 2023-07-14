@@ -12,9 +12,12 @@ O que os usuarios poderão fazer:
 - Ver os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
+<div style="margin: auto;">
+  <img href="screenshot/layout-pc">
+  <img href="screenshot/layout-pc-hover">
+  <img href="screenshot/layout-cell">
+</div>
 
-![](./screenshot.jpg)
-<!--aqui vaiduas imagens, a do PC e a do mobile do projeto dentro de uma div centralizado-->
 ### Links
 - Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
 
