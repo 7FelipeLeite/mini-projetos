@@ -189,13 +189,17 @@ img {
     margin-right: 20px;
 }
 
+a {
+   width: 85%;
+}
+
 button {
     background-color: var(--cinza-escuro);
     color: white;
     padding: 10px;
     border-radius: 30px;
     border: 0;
-    width: 85%;
+    width: 100%;
 }
 
 button:hover {
