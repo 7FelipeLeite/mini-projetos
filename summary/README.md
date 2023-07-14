@@ -18,7 +18,7 @@ O que os usuarios poderão fazer:
 ### Links
 - Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
 
-## Neu processo
+## Meu processo
 
 ### Feito com
 
