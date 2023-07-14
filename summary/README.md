@@ -13,9 +13,9 @@ O que os usuarios poderão fazer:
 
 ### Screenshot
 <div style="margin: auto;">
-  <img href="screenshot/layout-pc">
-  <img href="screenshot/layout-pc-hover">
-  <img href="screenshot/layout-cell">
+  <img href="screenshot/layout-pc.png">
+  <img href="screenshot/layout-pc-hover.png">
+  <img href="screenshot/layout-cell.png">
 </div>
 
 ### Links
