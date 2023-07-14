@@ -18,34 +18,26 @@ O que os usuarios poderão fazer:
 ### Links
 - Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
 
-## My process
+## Neu processo
 
-### Built with
+### Feito com
 
-- Semantic HTML5 markup
-- CSS custom properties
+- HTML5 semantico
+- CSS
 - Flexbox
 - CSS Grid
 
 
-### What I learned
+### O que aprendi
 
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+.learned {
+  z-index: 1;
+  flex-wrap: wrap;
 }
 ```
 
-## Author
+## Autor
 
 - Website - [Felipe Leite](https://github.com/7FelipeLeite)
 - Frontend Mentor - [@7FelipeLeite](https://www.frontendmentor.io/profile/7FelipeLeite)
