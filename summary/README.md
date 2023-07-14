@@ -12,7 +12,7 @@ O que os usuarios poderão fazer:
 - Ver os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
-<div style="margin: auto;">
+<div align="center">
   <img href="screenshot/layout-pc.png">
   <img href="screenshot/layout-pc-hover.png">
   <img href="screenshot/layout-cell.png">
