@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do componente de resumo de resultados
+# Frontend Mentor - Preview de produto
 
-Esta é uma solução para o [desafio do componente de resumo de resultados no Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [Preview de produto no Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa/hub). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Visão geral
 
@@ -15,7 +15,7 @@ O que os usuarios poderão fazer:
 
 
 ### Links
-- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/product-preview/)
+- Solução: [Preview](https://7felipeleite.github.io/projetcs-frontend-mentor/product-preview/)
 
 ## Meu processo
 
