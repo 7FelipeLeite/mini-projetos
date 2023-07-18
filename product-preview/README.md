@@ -27,15 +27,6 @@ O que os usuarios poderão fazer:
 - CSS Grid
 
 
-### O que aprendi
-
-```css
-.learned {
-  z-index: 1;
-  flex-wrap: wrap;
-}
-```
-
 ## Autor
 
 - Website - [Felipe Leite](https://github.com/7FelipeLeite)
