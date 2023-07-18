@@ -12,14 +12,10 @@ O que os usuarios poderão fazer:
 - Ver os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
-<div align="center">
-  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-pc.png" width="500px">
-  <img src="screenshot/layout-pc-hover.png" width="500px">
-  <img src="https://github.com/7FelipeLeite/projetcs-frontend-mentor/blob/main/summary/screenshot/layout-cell.png" width="300px">
-</div>
+
 
 ### Links
-- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
+- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/product-preview/)
 
 ## Meu processo
 
