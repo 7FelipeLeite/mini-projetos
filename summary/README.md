@@ -19,7 +19,7 @@ O que os usuarios poderão fazer:
 </div>
 
 ### Links
-- Solução: [Sumário](https://7felipeleite.github.io/projetcs-frontend-mentor/summary/)
+- Solução: [Sumário](https://7felipeleite.github.io/mini-projetos/summary/)
 
 ## Meu processo
 
