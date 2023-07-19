@@ -15,7 +15,7 @@ O que os usuarios poderão fazer:
 
 
 ### Links
-- Solução: [Preview](https://7felipeleite.github.io/projetcs-frontend-mentor/product-preview/)
+- Solução: [Preview](https://7felipeleite.github.io/mini-projetos/product-preview/)
 
 ## Meu processo
 
