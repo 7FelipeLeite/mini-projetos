@@ -14,6 +14,7 @@ O que os usuarios poderão fazer:
 <div align="center">
 <img src="design/index.html.png" width="500px">
 </div>
+
 ### Links
 - Solução: [Preview](https://7felipeleite.github.io/mini-projetos/product-preview/)
 
