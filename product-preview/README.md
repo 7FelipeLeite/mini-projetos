@@ -8,7 +8,6 @@ Esta é uma solução para o [Preview de produto no Frontend Mentor](https://www
 
 O que os usuarios poderão fazer:
 
-- Ver o layout ideal para a interface, dependendo do tamanho da tela do dispositivo
 - Ver os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
