@@ -12,7 +12,7 @@ O que os usuarios poderão fazer:
 
 ### Screenshot
 <div align="center">
-<img src="design/index.html.png" width="500px">
+<img src="screenshot/index.html.png" width="500px">
 </div>
 
 ### Links
