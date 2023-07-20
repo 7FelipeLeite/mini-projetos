@@ -11,8 +11,9 @@ O que os usuarios poderão fazer:
 - Ver os estados de focalização e foco para todos os elementos interativos na página
 
 ### Screenshot
+<div align="center">
 <img src="design/index.html.png" width="500px">
-
+</div>
 ### Links
 - Solução: [Preview](https://7felipeleite.github.io/mini-projetos/product-preview/)
 
