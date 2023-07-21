@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+}
+
+:root {
+    --azul-palido: hsl(243, 100%, 93%);
+    --azul-acizentado: hsl(229, 7%, 55%);
+    --azul-escuro: hsl(228, 56%, 26%);
+    --azul-muito-escuro: hsl(229, 57%, 11%);
+    --gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(images/bg-mobile.png);
+    background-color: var(--azul-escuro);
+    background-size: cover;
+    min-height: 100vh;
+    min-width: 100vw;
+    color: white;
+}
+
+.card1 {
+    background-color: var(--azul-escuro);
+    width: 310px;
+    height: 200px;
+    border-radius: 10px 100px 10px 10px;
+    margin-bottom: 20px;
+}
+
+.card1 > .logo {
+    margin: 40px 40px 30px 40px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 40px
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--azul-muito-escuro);
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin-right: 10px;
+}
+
+.card2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--azul-escuro);
+    width: 310px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    color: var(--azul-palido);
+}
+
+.card2 > p {
+    text-align: center;
+    margin: 30px 0 15px 0;
+}
+
+#storage{
+    width: 100%;
+    appearance: none;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ffa399, #ff4d97);
+    outline: /*tentar algo aqui*/;
+}
+
+.range {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+.range > .min-max {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
