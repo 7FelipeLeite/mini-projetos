@@ -12,7 +12,6 @@ O que os usuarios poderão fazer:
 
 ### Screenshot
 <div align="center">
-<img src="screenshots/pc.png" width="500px">
 <img src="screenshots/mobile.png" width="500px">
 </div>
 
