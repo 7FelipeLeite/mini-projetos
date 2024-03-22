@@ -8,6 +8,8 @@ Projeto 2: <a href="https://7felipeleite.github.io/mini-projetos/product-preview
 Projeto 3: <a href="https://7felipeleite.github.io/mini-projetos/qr-code/">QR Code</a> (HTML e CSS) <br>
 Projeto 4: <a href="https://7felipeleite.github.io/mini-projetos/social-links/">Social Links</a> (HTML e CSS)
 
+### Nível Intermediário
+
 ## Projetos em Andamento: 
 ### Nível Intermediário
-Projeto 5: <a href="https://7felipeleite.github.io/mini-projetos/fylo/">Fylo</a> (HTML e CSS e JavaScript) <br>
+Projeto 6: <a href="https://7felipeleite.github.io/mini-projetos/fylo/">Fylo</a> (HTML e CSS e JavaScript) <br>
