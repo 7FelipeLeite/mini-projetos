@@ -25,7 +25,7 @@ O que os usuarios poderão fazer:
 
 ### O que aprendi
 
-```css
+```js
 .learned {
   z-index: 1;
   flex-wrap: wrap;
