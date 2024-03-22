@@ -9,7 +9,7 @@ Projeto 3: <a href="https://7felipeleite.github.io/mini-projetos/qr-code/">QR Co
 Projeto 4: <a href="https://7felipeleite.github.io/mini-projetos/social-links/">Social Links</a> (HTML e CSS)
 
 ### Nível Intermediário
--Projeto 4:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG</a>(HTML, CSS e JS)
+-Projeto 4:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG</a> (HTML, CSS e JS)
 
 ## Projetos em Andamento: 
 ### Nível Intermediário
