@@ -28,7 +28,10 @@ O que os usuarios poderão fazer:
 ```js
 function logic() {
 }
-for 
+for loops () {
+
+}
+arrays and objetcs [{},{}]
 ```
 
 ## Autor
