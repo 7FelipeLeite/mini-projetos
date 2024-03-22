@@ -26,10 +26,9 @@ O que os usuarios poderão fazer:
 ### O que aprendi
 
 ```js
-.learned {
-  z-index: 1;
-  flex-wrap: wrap;
+function logic() {
 }
+for 
 ```
 
 ## Autor
