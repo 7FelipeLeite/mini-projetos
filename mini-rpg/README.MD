@@ -31,7 +31,7 @@ function logic() {
 for loops () {
 
 }
-arrays and objetcs [{},{}]
+const arraysAndObjects = [{},{}]
 ```
 
 ## Autor
