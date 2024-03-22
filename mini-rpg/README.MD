@@ -8,8 +8,9 @@ Esta é uma solução para o [desafio de RPG do FreeCodeCamp](https://www.freeco
 
 O que os usuarios poderão fazer:
 
-- Interagir com os botões e terminar o jogo
-
+- Interagir com os botões
+-Escolher ações
+-Perder ou ganhar o jogo
 
 ### Links
 - Solução: [RPG](https://7felipeleite.github.io/mini-projetos/mini-rpg/)
@@ -29,8 +30,8 @@ O que os usuarios poderão fazer:
 function logic() {
 }
 for loops () {
-
 }
+
 const arraysAndObjects = [{},{}]
 ```
 
