@@ -1,6 +1,6 @@
-# Frontend Mentor - Solução do componente de resumo de resultados
+# FreeCodeCamp - Solução do RPG
 
-Esta é uma solução para o [desafio do componente de resumo de resultados no Frontend Mentor](https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
+Esta é uma solução para o [desafio de RPG do FreeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures-v8/learn-basic-javascript-by-building-a-role-playing-game/step-1).
 
 ## Visão geral
 
