@@ -1,0 +1,1 @@
+Nesse mini projeto aprendi conceitos basicos de manipulação de string, e aprendi o método eval(), que por mais que seja útil há um grande problema, pois possibilita que o usuario rode cógidos dentro do meu documento.
