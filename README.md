@@ -1,5 +1,5 @@
 # Projetos
-Mini Projetos criados com intuito de praticar conceitos aprendido anteriormente em aula.
+Mini Projetos criados com intuito de praticar conceitos aprendidos.
 
 ## Projetos Concluidos
 ### Nível Fácil
