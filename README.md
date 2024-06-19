@@ -7,6 +7,7 @@ Projeto 1: <a href="https://7felipeleite.github.io/mini-projetos/summary/">Sumá
 Projeto 2: <a href="https://7felipeleite.github.io/mini-projetos/product-preview/">Product Preview</a> (HTML e CSS, sem responsividade) <br>
 Projeto 3: <a href="https://7felipeleite.github.io/mini-projetos/qr-code/">QR Code</a> (HTML e CSS) <br>
 Projeto 4: <a href="https://7felipeleite.github.io/mini-projetos/social-links/">Social Links</a> (HTML e CSS)
+Projeto 5: <a href="https://7felipeleite.github.io/mini-projetos/calculadora/">Calculadora</a> (HTML e CSS e JavaScript6)
 
 ### Nível Intermediário
 Projeto 4:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG</a> (HTML, CSS e JS)
