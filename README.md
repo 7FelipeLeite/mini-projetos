@@ -10,8 +10,8 @@ Projeto 4: <a href="https://7felipeleite.github.io/mini-projetos/social-links/">
 Projeto 5: <a href="https://7felipeleite.github.io/mini-projetos/calculadora/">Calculadora</a> (HTML e CSS e JavaScript6)
 
 ### Nível Intermediário
-Projeto 4:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG</a> (HTML, CSS e JS)
+Projeto 6:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG</a> (HTML, CSS e JS)
 
 ## Projetos em Andamento: 
 ### Nível Intermediário
-Projeto 6: <a href="https://7felipeleite.github.io/mini-projetos/fylo/">Fylo</a> (HTML e CSS e JavaScript) <br>
+Projeto 7: <a href="https://7felipeleite.github.io/mini-projetos/fylo/">Fylo</a> (HTML e CSS e JavaScript) <br>
