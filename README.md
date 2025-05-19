@@ -14,4 +14,4 @@ Projeto 6:  <a href="https://7felipeleite.github.io/mini-projetos/mini-rpg/">RPG
 
 ## Projetos em Andamento: 
 ### Nível Intermediário
-Projeto 7: <a href="https://7felipeleite.github.io/mini-projetos/browserExtensionManager/">Fylo</a> (HTML e CSS e JavaScript) <br>
+Projeto 7: <a href="https://7felipeleite.github.io/mini-projetos/browserExtensionManager/">Browser Extension Manager</a> (HTML e CSS e JavaScript) <br>
