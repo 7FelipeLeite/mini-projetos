@@ -13,10 +13,9 @@
   <script src="scripts/index.js" defer></script>
 </head>
 
-<!--TODO: Alterar o flexbox do body para grid, usar gap para espaçamento e ir deletando os paddings se necessario
- talvez usar grid no header/main/footer-->
 <body class="bg-linear-to-b from-[#EBF2FC] to-[#EEF8F9] min-h-screen text-black font-notoSans px-5 py-3 flex flex-col items-center focus:outline-none focus:border-4 focus:border-[#C7221A]"> 
   <main class="text-center text-[#091540]">  
+
 
   <header class="bg-[#fbfdfe] shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-lg flex place-content-between py-2 px-3 w-84 ">
     <div id="logo">
@@ -44,7 +43,6 @@
   
     <h1 class="text-3xl font-extrabold pt-10 pb-4 px-2">Extensions List</h1>
     <nav class="mb-10">
-
       <button class="bg-[#fbfdfe] hover:opacity-75 rounded-full shadow-[0_0_6px_rgba(0,0,0,0.2)] 
       h-9 px-4 mx-1 font-medium cursor-pointer
       focus:outline-none focus:ring-2 focus:ring-[#F25C54] focus:ring-offset-2 focus:ring-offset-[#d6e2f5]">All</button>
@@ -56,36 +54,58 @@
       <button class="bg-[#fbfdfe] hover:opacity-75 rounded-full shadow-[0_0_6px_rgba(0,0,0,0.2)] 
       h-9 px-4 mx-1 font-medium cursor-pointer
       focus:outline-none focus:ring-2 focus:ring-[#F25C54] focus:ring-offset-2 focus:ring-offset-[#d6e2f5]">Inactive</button>
-      
-
     </nav>
 
 
 
-    <section>
-      
-      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.1)] rounded-xl p-4 justify-between items-start max-w-84">
+    <section class="grid grid-cols-1">
+
+<!--TODO: SETAR ESSE ARTICLE COMO FLEX, PARA SEPARAR A PRIMEIRA DIV DA ULTIMA E ANULAR O USO DE MARGIN PARA SEPARAR OS ELEMENTOS DO CARD-->
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-45 mb-4">
 
         <div class="grid grid-cols-4 text-left" id="card">
-
           <div>
             <img src="assets/images/logo-devlens.svg" alt="" class="">
           </div>
-
           <div class="col-span-3 mb-5">
             <h1 class="font-bold text-[#0f172a] text-lg pb-1">DevLens</h1>
-            <p class="text-md text-[#545969]">Quickly inspect page layouts and visualize element boundaries.</p>
+            <p class="text-md text-[#545969] text-sm mr-4">Quickly inspect page layouts and visualize element boundaries.</p>
           </div>
-
         </div>
 
         <div class="flex place-content-between items-center">
-
-          <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-medium
-          focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2">Remove</button>
-
+          <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
+          focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
+          hover:bg-[#C7221A] hover:text-[#fbfdfe] cursor-pointer">Remove</button>
           <label class="relative inline-flex cursor-pointer rounded-full
-          focus:outline-none focus-within:ring-2 focus-within:ring-[#F25C54] ring-offset-2">
+          focus:outline-none focus-within:ring-2 focus-within:ring-[#F25C54] ring-offset-2 hover:opacity-75">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-11 h-6 bg-[#c7c7c7] rounded-full peer peer-checked:bg-[#C7221A] transition-colors duration-300"></div>
+            <div class="absolute left-[3px] bottom-[3px] bg-white w-[18px] h-[18px] rounded-full transition-transform duration-300 
+            peer-checked:translate-x-5"></div>
+          </label>
+        </div>
+
+      </article>
+
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-45 mb-4">
+
+        <div class="grid grid-cols-4 text-left" id="card">
+          <div>
+            <img src="assets/images/logo-style-spy.svg" alt="" class="">
+          </div>
+          <div class="col-span-3 mb-5">
+            <h1 class="font-bold text-[#0f172a] text-lg pb-1">DevLens</h1>
+            <p class="text-md text-[#545969] text-sm mr-4">Instantly analyze and copy CSS from any webpage element.</p>
+          </div>
+        </div>
+
+        <div class="flex place-content-between items-center">
+          <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
+          focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
+          hover:bg-[#C7221A] hover:text-[#fbfdfe] cursor-pointer">Remove</button>
+          <label class="relative inline-flex cursor-pointer rounded-full
+          focus:outline-none focus-within:ring-2 focus-within:ring-[#F25C54] ring-offset-2 hover:opacity-75">
             <input type="checkbox" class="sr-only peer">
             <div class="w-11 h-6 bg-[#c7c7c7] rounded-full peer peer-checked:bg-[#C7221A] transition-colors duration-300"></div>
             <div class="absolute left-[3px] bottom-[3px] bg-white w-[18px] h-[18px] rounded-full transition-transform duration-300 
@@ -94,7 +114,7 @@
         </div>
         
       </article>
-      <!-- Repetir para os outros cards, mudando classes/estados -->
+
     </section>
   </main>
 </body>
