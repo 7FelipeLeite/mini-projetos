@@ -2,9 +2,9 @@
 
 @import "tailwindcss";
 
-
 @layer utilities {
   .font-notoSans {
     font-family: 'Noto Sans', sans-serif;
   }
 }
+

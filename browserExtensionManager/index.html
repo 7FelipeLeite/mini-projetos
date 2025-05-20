@@ -5,16 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <title>Browser extensions manager UI</title>
- 
   <!--Import porco do tailwind-->
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
   <link rel="stylesheet" href="css/style.css">
   <script src="scripts/index.js" defer></script>
+  <script src="scripts/theme.js" defer></script>
 </head>
 
-<body class="bg-linear-to-b from-[#EBF2FC] to-[#EEF8F9] min-h-screen text-black font-notoSans px-5 py-3 flex flex-col items-center focus:outline-none focus:border-4 focus:border-[#C7221A]"> 
-  <main class="text-center text-[#091540]">  
+<body class="bg-linear-to-b from-[#EBF2FC] to-[#EEF8F9] min-h-screen text-[#091540] font-notoSans px-5 py-3 flex flex-col items-center focus:outline-none focus:border-4 focus:border-[#C7221A]"> 
+  <main class="text-center">   
 
 
   <header class="bg-[#fbfdfe] shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-lg flex place-content-between py-2 px-3 w-84 ">
@@ -29,8 +29,8 @@
           <img src="assets/images/icon-sun.svg" alt="icone do sol">
         </i>
       </button>
-      <button class="bg-[#EDEDED] hover:bg-[#c7c7c7] flex justify-center items-center rounded-xl w-12 h-12 
-      focus:outline-none focus:border-3 focus:border-[#fbfdfe] focus:ring-2 focus:ring-[#F25C54] cursor-pointer">
+      <button id="darkMode" class="bg-[#EDEDED] hover:bg-[#c7c7c7] flex justify-center items-center rounded-xl w-12 h-12 
+      focus:outline-none focus:border-3 focus:border-[#fbfdfe] focus:ring-2 focus:ring-[#F25C54] cursor-pointer ">
         <i class="icon">
           <img src="assets/images/icon-moon.svg" alt="icone da lua">
         </i>
@@ -58,11 +58,9 @@
 
 
 
-    <section class="grid grid-cols-1">
+    <section id="card" class="grid grid-cols-1">
 
-<!--TODO: SETAR ESSE ARTICLE COMO FLEX, PARA SEPARAR A PRIMEIRA DIV DA ULTIMA E ANULAR O USO DE MARGIN PARA SEPARAR OS ELEMENTOS DO CARD-->
-      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-45 mb-4">
-
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-48 mb-4 flex flex-col justify-between">
         <div class="grid grid-cols-4 text-left" id="card">
           <div>
             <img src="assets/images/logo-devlens.svg" alt="" class="">
@@ -72,7 +70,6 @@
             <p class="text-md text-[#545969] text-sm mr-4">Quickly inspect page layouts and visualize element boundaries.</p>
           </div>
         </div>
-
         <div class="flex place-content-between items-center">
           <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
           focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
@@ -85,21 +82,18 @@
             peer-checked:translate-x-5"></div>
           </label>
         </div>
-
       </article>
 
-      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-45 mb-4">
-
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-48 mb-4 flex flex-col justify-between">
         <div class="grid grid-cols-4 text-left" id="card">
           <div>
             <img src="assets/images/logo-style-spy.svg" alt="" class="">
           </div>
           <div class="col-span-3 mb-5">
-            <h1 class="font-bold text-[#0f172a] text-lg pb-1">DevLens</h1>
+            <h1 class="font-bold text-[#0f172a] text-lg pb-1">StyleSpy</h1>
             <p class="text-md text-[#545969] text-sm mr-4">Instantly analyze and copy CSS from any webpage element.</p>
           </div>
         </div>
-
         <div class="flex place-content-between items-center">
           <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
           focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
@@ -112,7 +106,54 @@
             peer-checked:translate-x-5"></div>
           </label>
         </div>
-        
+      </article>
+
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-48 mb-4 flex flex-col justify-between">
+        <div class="grid grid-cols-4 text-left" id="card">
+          <div>
+            <img src="assets/images/logo-speed-boost.svg" alt="" class="">
+          </div>
+          <div class="col-span-3 mb-5">
+            <h1 class="font-bold text-[#0f172a] text-lg pb-1">SpeedBoost</h1>
+            <p class="text-md text-[#545969] text-sm mr-4">Optimzes browser resource usage to accelerate page loading.</p>
+          </div>
+        </div>
+        <div class="flex place-content-between items-center">
+          <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
+          focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
+          hover:bg-[#C7221A] hover:text-[#fbfdfe] cursor-pointer">Remove</button>
+          <label class="relative inline-flex cursor-pointer rounded-full
+          focus:outline-none focus-within:ring-2 focus-within:ring-[#F25C54] ring-offset-2 hover:opacity-75">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-11 h-6 bg-[#c7c7c7] rounded-full peer peer-checked:bg-[#C7221A] transition-colors duration-300"></div>
+            <div class="absolute left-[3px] bottom-[3px] bg-white w-[18px] h-[18px] rounded-full transition-transform duration-300 
+            peer-checked:translate-x-5"></div>
+          </label>
+        </div>
+      </article>
+
+      <article class="bg-white shadow-[0_0_6px_rgba(0,0,0,0.2)] rounded-2xl p-4 max-w-84 min-h-48 mb-4 flex flex-col justify-between">
+        <div class="grid grid-cols-4 text-left" id="card">
+          <div>
+            <img src="assets/images/logo-json-wizard.svg" alt="" class="">
+          </div>
+          <div class="col-span-3 mb-5">
+            <h1 class="font-bold text-[#0f172a] text-lg pb-1">JSONWizard</h1>
+            <p class="text-md text-[#545969] text-sm mr-4">Formats, validates, and prettifies JSON responses in-browser.</p>
+          </div>
+        </div>
+        <div class="flex place-content-between items-center">
+          <button class="bg-[#fbfdfe] rounded-full border-1 border-[#c7c7c7] h-9 px-4 font-normal text-sm
+          focus:outline-none focus:ring-2 focus:ring-[#F25C54] ring-offset-2
+          hover:bg-[#C7221A] hover:text-[#fbfdfe] cursor-pointer">Remove</button>
+          <label class="relative inline-flex cursor-pointer rounded-full
+          focus:outline-none focus-within:ring-2 focus-within:ring-[#F25C54] ring-offset-2 hover:opacity-75">
+            <input type="checkbox" class="sr-only peer">
+            <div class="w-11 h-6 bg-[#c7c7c7] rounded-full peer peer-checked:bg-[#C7221A] transition-colors duration-300"></div>
+            <div class="absolute left-[3px] bottom-[3px] bg-white w-[18px] h-[18px] rounded-full transition-transform duration-300 
+            peer-checked:translate-x-5"></div>
+          </label>
+        </div>
       </article>
 
     </section>
